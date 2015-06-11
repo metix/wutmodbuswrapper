@@ -46,3 +46,6 @@ inputs            - print inputs
 outputs           - print outputs
 ```
 
+License
+-
+MIT
