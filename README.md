@@ -3,7 +3,7 @@ WutModbusWrapper
 WutModbusWrapper translates the WUT procotol from WUT-Devices (http://www.wut.de/) to TCP-Modbus protocol.
 
 
-It basically emulates a WUT-Server and passes request to a modbus server.
+It basically emulates a WUT-Server and passes requests to a modbus server.
 
 It can be used in a case like:
 
@@ -29,7 +29,7 @@ java -jar wutmodbus.jar [wut-port] [service] {service-options}
 
 #### WUT to Modbus
 
-For example, if you have a device with a modbus server running on address 192.168.0.10 and a software which has a WUT client, you can start a WutModbusAdapter-Server like this:
+For example, if you have a device with a modbus server running on address 192.168.0.10 and a software which has a WUT client, you can start a new WutModbusAdapter-Server like this:
 
 `java -jar wutmodbus.jar 80 modbus 192.168.0.10`
 
