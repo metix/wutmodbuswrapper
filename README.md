@@ -9,6 +9,13 @@ It can be used in a case like:
 
 * you have a modbus device but your software only have a client driver for WUT devices
 
+Features
+-
+At the moment the WutModbusWrapper supports following commands:
+* get inputs
+* get outputs
+* set outputs
+
 Usage
 -
 First compile the sources. Then use it like this:
